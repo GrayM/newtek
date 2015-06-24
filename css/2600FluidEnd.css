@@ -1,0 +1,251 @@
+#map {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /*    image height should match background image   */
+  min-height: 980px;
+  background-image: url("../images/2600FluidEndExploded.jpg");
+  background-repeat: no-repeat; }
+  #map li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #map li a {
+      position: absolute;
+      display: block;
+      /*          fallback image for older versions of IE*/
+      background: url(blank.gif);
+      text-decoration: none;
+      color: #000; }
+      #map li a span {
+        display: none;
+        z-index: 1; }
+
+#map li a {
+  /*        These values control the color of the hover spots BEFORE mousing over them    */
+  border-radius: 48px;
+  border: 1px solid RGBA(5, 153, 199, 0.5);
+  background-color: RGBA(5, 153, 199, 0.15); }
+#map li a:hover span {
+  position: relative;
+  display: block;
+  width: 300px;
+  height: auto !important;
+  /*            where it will appear in reference to cursor hotspot    */
+  left: 70px;
+  top: -45px;
+  border: 1px solid #BEBEBE;
+  border-radius: 8px;
+  background: #fff; }
+#map li a span:before, #map li a span:after {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #fff;
+  bottom: 30px;
+  content: '';
+  right: 100%;
+  margin-left: -20px;
+  position: absolute; }
+#map li a span:before {
+  border-top: 23px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-right: 22px solid RGBA(190, 190, 190, 1);
+  bottom: 27px;
+  margin-left: -23px; }
+
+.red {
+  color: red;
+  font-size: 13px;
+  margin: 0px 2px 0px 10px; }
+
+.black {
+  font-size: 13px; }
+
+.container {
+  clear: both;
+  min-height: 50px; }
+
+.floatLeft.price {
+  float: left;
+  font-size: 2.5em;
+  padding: 5px;
+  margin-right: 2px;
+  padding-bottom: 10px; }
+
+.floatLeft.desc {
+  font-weight: 900;
+  padding: 5px;
+  /*      width:74%;*/
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-left: 5px; }
+
+.product-footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0px 0px 8px 8px;
+  padding: 5px 0px 5px 0px;
+  color: white; }
+
+#map a:hover {
+  background-color: RGBA(5, 153, 199, 0.8);
+  border-radius: 48px; }
+#map a.item1 {
+  /*            where the hover over spot will be on page    */
+  top: 118px;
+  left: 565px;
+  /*            how large the hotspot hover area is to be for each hover area  */
+  width: 47px;
+  height: 47px; }
+#map a.item2 {
+  top: 48px;
+  left: 564px;
+  width: 50px;
+  height: 50px; }
+#map a.item3 {
+  top: 757px;
+  left: 510px;
+  width: 15px;
+  height: 15px; }
+#map a.item4 {
+  top: 770px;
+  left: 465px;
+  width: 20px;
+  height: 20px; }
+#map a.item5 {
+  top: 794px;
+  left: 450px;
+  width: 30px;
+  height: 30px; }
+#map a.item6 {
+  top: 803px;
+  left: 497px;
+  width: 15px;
+  height: 15px; }
+#map a.item7 {
+  top: 811px;
+  left: 374px;
+  width: 35px;
+  height: 35px; }
+#map a.item8 {
+  top: 429px;
+  left: 530px;
+  width: 25px;
+  height: 25px; }
+#map a.item11 {
+  top: 110px;
+  left: 407px;
+  width: 35px;
+  height: 35px; }
+#map a.item12 {
+  top: 72px;
+  left: 408px;
+  width: 35px;
+  height: 35px; }
+#map a.item13 {
+  top: 388px;
+  left: 335px;
+  width: 40px;
+  height: 40px; }
+#map a.item14 {
+  top: 527px;
+  left: 827px;
+  width: 50px;
+  height: 50px; }
+#map a.item15 {
+  top: 571px;
+  left: 545px;
+  width: 50px;
+  height: 50px; }
+#map a.item16 {
+  top: 227px;
+  left: 404px;
+  width: 38px;
+  height: 38px; }
+#map a.item17 {
+  top: 319px;
+  left: 405px;
+  width: 30px;
+  height: 30px; }
+#map a.item18 {
+  top: 350px;
+  left: 567px;
+  width: 30px;
+  height: 30px; }
+#map a.item19 {
+  top: 267px;
+  left: 408px;
+  width: 25px;
+  height: 25px; }
+#map a.item20 {
+  top: 188px;
+  left: 572px;
+  width: 25px;
+  height: 25px; }
+#map a.item21 {
+  top: 865px;
+  left: 753px;
+  width: 35px;
+  height: 35px; }
+#map a.item22 {
+  top: 832px;
+  left: 735px;
+  width: 25px;
+  height: 25px; }
+#map a.item23 {
+  top: 565px;
+  left: 158px;
+  width: 50px;
+  height: 50px; }
+#map a.item24 {
+  top: 525px;
+  left: 254px;
+  width: 50px;
+  height: 50px; }
+#map a.item25 {
+  top: 590px;
+  left: 104px;
+  width: 42px;
+  height: 42px; }
+#map a.item26 {
+  top: 606px;
+  left: 61px;
+  width: 40px;
+  height: 40px; }
+#map a.item27 {
+  top: 528px;
+  left: 694px;
+  width: 20px;
+  height: 20px; }
+#map a.item28 {
+  top: 747px;
+  left: 532px;
+  width: 30px;
+  height: 30px; }
+#map a.item29 {
+  top: 565px;
+  left: 103px;
+  width: 20px;
+  height: 20px; }
+#map a.item31 {
+  top: 365px;
+  left: 262px;
+  width: 30px;
+  height: 30px; }
+#map a.item32 {
+  top: 795px;
+  left: 412px;
+  width: 30px;
+  height: 30px; }
+#map a.item33 {
+  top: 759px;
+  left: 565px;
+  width: 20px;
+  height: 20px; }
+#map a.item8 {
+  top: 429px;
+  left: 530px;
+  width: 25px;
+  height: 25px; }
