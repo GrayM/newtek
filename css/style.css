@@ -1,0 +1,305 @@
+#map {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /*    image height should match background image   */
+  min-height: 980px;
+  background-image: url("../images/2600PowerEndExploded.jpg");
+  background-repeat: no-repeat;
+}
+
+#map li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#map li a {
+  position: absolute;
+  display: block;
+  /*          fallback image for older versions of IE*/
+  background: url(blank.gif);
+  text-decoration: none;
+  color: #000;
+}
+
+#map li a span {
+  display: none;
+}
+
+#map li a:hover span {
+  position: relative;
+  display: block;
+  width: 300px;
+  height: auto !important;
+  /*            where it will appear in reference to cursor hotspot    */
+  left: 70px;
+  top: -45px;
+  border: 1px solid #BEBEBE;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#map li a span:before, #map li a span:after {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #fff;
+  bottom: 30px;
+  content: '';
+  right: 100%;
+  margin-left: -20px;
+  position: absolute;
+}
+
+#map li a span:before {
+  border-top: 23px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-right: 22px solid RGBA(190, 190, 190, 1);
+  bottom: 27px;
+  margin-left: -23px;
+}
+
+.red {
+  color: red;
+  font-size: 13px;
+  margin: 0px 2px 0px 10px;
+}
+
+.black {
+  font-size: 13px;
+}
+
+.container {
+  clear: both;
+  min-height: 50px;
+}
+
+.floatLeft.price {
+  float: left;
+  font-size: 2.5em;
+  padding: 5px;
+  margin-right: 2px;
+  padding-bottom: 10px;
+}
+
+.floatLeft.desc {
+  font-weight: 900;
+  padding: 5px;
+  /*      width:74%;*/
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.product-footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 0px 0px 8px 8px;
+  padding: 5px 0px 5px 0px;
+  color: white;
+}
+
+#map a:hover {
+  background-color: RGBA(5, 153, 199, 0.7);
+  border-radius: 48px;
+}
+
+#map a.item1 {
+  /*            where the hover over spot will be on page    */
+  top: 550px;
+  left: 650px;
+  /*            how large the hotspot hover area is to be for each hover area  */
+  width: 50px;
+  height: 50px;
+}
+
+#map a.item2 {
+  top: 85px;
+  left: 430px;
+  width: 53px;
+  height: 55px;
+}
+
+#map a.item3 {
+  top: 265px;
+  left: 765px;
+  width: 50px;
+  height: 50px;
+}
+
+#map a.item4-1-1 {
+  top: 425px;
+  left: 92px;
+  width: 52px;
+  height: 52px;
+}
+
+#map a.item4-1-2 {
+  top: 407px;
+  left: 163px;
+  width: 20px;
+  height: 40px;
+}
+
+#map a.item4-1-3 {
+  top: 475px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+#map a.item4-1-4 {
+  top: 470px;
+  left: 160px;
+  width: 40px;
+  height: 40px;
+}
+
+#map a.item4-1-5 {
+  top: 426px;
+  left: 178px;
+  width: 18px;
+  height: 18px;
+}
+
+#map a.item4-1-6 {
+  top: 415px;
+  left: 195px;
+  width: 25px;
+  height: 25px;
+}
+
+#map a.item4-1-7 {
+  top: 455px;
+  left: 50px;
+  width: 13px;
+  height: 13px;
+}
+
+#map a.item4-1-7 {
+  top: 455px;
+  left: 50px;
+  width: 13px;
+  height: 13px;
+}
+
+#map a.item4-1-8 {
+  top: 455px;
+  left: 50px;
+  width: 13px;
+  height: 13px;
+}
+
+#map a.item4-1-9 {
+  top: 455px;
+  left: 50px;
+  width: 13px;
+  height: 13px;
+}
+
+#map a.item4-2 {
+  top: 455px;
+  left: 50px;
+  width: 13px;
+  height: 13px;
+}
+
+#map a.item4-2-1 {
+  top: 455px;
+  left: 50px;
+  width: 13px;
+  height: 13px;
+}
+
+#map a.item4-2-1-1 {
+  top: 298px;
+  left: 358px;
+  width: 25px;
+  height: 25px;
+}
+
+#map a.item4-2-1-2 {
+  top: 306px;
+  left: 351px;
+  width: 30px;
+  height: 30px;
+}
+
+#map a.item4-2-1-3 {
+  top: 318px;
+  left: 318px;
+  width: 33px;
+  height: 60px;
+}
+
+#map a.item4-2-1-4 {
+  top: 285px;
+  left: 380px;
+  width: 20px;
+  height: 20px;
+}
+
+#map a.item4-2-1-5 {
+  top: 285px;
+  left: 380px;
+  width: 20px;
+  height: 20px;
+}
+
+#map a.item4-2-2 {
+  top: 328px;
+  left: 354px;
+  width: 30px;
+  height: 30px;
+}
+
+#map a.item4-2-3 {
+  top: 328px;
+  left: 354px;
+  width: 30px;
+  height: 30px;
+}
+
+#map a.item4-3 {
+  top: 328px;
+  left: 354px;
+  width: 30px;
+  height: 30px;
+}
+
+#map a.item4-3-1 {
+  top: 363px;
+  left: 228px;
+  width: 50px;
+  height: 50px;
+}
+
+#map a.item4-3-2 {
+  top: 411px;
+  left: 255px;
+  width: 35px;
+  height: 35px;
+}
+
+#map a.item5 {
+  top: 192px;
+  left: 420px;
+  width: 32px;
+  height: 32px;
+}
+
+#map a.item6 {
+  top: 281px;
+  left: 816px;
+  width: 32px;
+  height: 32px;
+}
+
+#map a.item7 {
+  top: 480px;
+  left: 532px;
+  width: 50px;
+  height: 50px;
+}
